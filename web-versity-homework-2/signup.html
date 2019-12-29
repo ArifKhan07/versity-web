@@ -12,7 +12,7 @@
 <html>
 <head>
 	<title>versity</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 	<style type="text/css">
 		
 		
@@ -44,12 +44,30 @@
   		</ul>
   	</div>
   	<div class="mid-content">
-  	    <a href="image/img1.jpg"><img src="image/img1.jpg" alt="img" height="225px;" width="100%"></a>
-  	    <a href="image/img2.jpg"><img src="image/img2.jpg" alt="img" height="225px;" width="100%"></a>
-     </div>
-  	<div class="right-content">
-  		<a href="image/img3.png"><img src="image/img3.png" alt="img" height="225px;" width="100%"></a>
-  		<a href="image/img4.jpg"><img src="image/img4.jpg" alt="img" height="225px;" width="100%"></a>
+  	   <form action="action_page.php" style="border:1px solid #ccc">
+  <div class="container">
+    <h1>Sign Up</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <label for="psw-repeat"><b>Repeat Password</b></label>
+    <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+    <label>
+      <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+    </label>
+
+    <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+
+    <div class="clearfix">
+      <button type="submit" class="signupbtn">Sign Up</button>
+    </div>
+  </div>
+</form>
   	</div>
   </div>
   <footer class="footer">@copyright 2019 <span class="span">MD. ARIF KHAN</span></footer>

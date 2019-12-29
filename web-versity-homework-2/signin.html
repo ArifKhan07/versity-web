@@ -12,7 +12,7 @@
 <html>
 <head>
 	<title>versity</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 	<style type="text/css">
 		
 		
@@ -44,12 +44,28 @@
   		</ul>
   	</div>
   	<div class="mid-content">
-  	    <a href="image/img1.jpg"><img src="image/img1.jpg" alt="img" height="225px;" width="100%"></a>
-  	    <a href="image/img2.jpg"><img src="image/img2.jpg" alt="img" height="225px;" width="100%"></a>
-     </div>
-  	<div class="right-content">
-  		<a href="image/img3.png"><img src="image/img3.png" alt="img" height="225px;" width="100%"></a>
-  		<a href="image/img4.jpg"><img src="image/img4.jpg" alt="img" height="225px;" width="100%"></a>
+  	    <form action="action_page.php" method="post">
+  <div class="imgcontainer">
+    <img src="image/avatar.jpg" alt="Avatar" class="avatar" height="100px" width="100px">
+  </div>
+
+  <div class="container">
+    <label for="uname"><b>Username</b></label>
+    <input type="text" placeholder="Enter Username" name="uname" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit">Login</button>
+    <label>
+      <input type="checkbox" checked="checked" name="remember"> Remember me
+    </label>
+  </div>
+
+  <div class="container" style="background-color:#f1f1f1">
+    <span class="psw">Forgot <a href="#">password?</a></span>
+  </div>
+</form>
   	</div>
   </div>
   <footer class="footer">@copyright 2019 <span class="span">MD. ARIF KHAN</span></footer>
