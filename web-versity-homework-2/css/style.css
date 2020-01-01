@@ -40,6 +40,8 @@
 		}
 		.menu ul li:hover a{
 			color: #2c6514;
+			box-shadow: 10px 15px 5px  black;
+			z-index: 100000;
 		}
 		.menu ul li a{
 			padding: 14px 105px;
@@ -98,7 +100,7 @@
 		.content  .left-content ul li a:hover{
 			background: #fff;
 			/*background: white;*/
-			color: #2c6514;;
+			color: #2c6514;
 		}
 		.content .right-content{
 			border: 3px solid white;
