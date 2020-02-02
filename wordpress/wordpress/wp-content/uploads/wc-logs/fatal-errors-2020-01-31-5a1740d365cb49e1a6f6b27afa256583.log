@@ -1,0 +1,26 @@
+2020-01-31T07:53:13+00:00 CRITICAL Maximum execution time of 30 seconds exceeded in C:\xampp\htdocs\wordpress\wp-includes\class-wp-theme.php on line 1194
+
+2020-01-31T17:48:56+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\xampp\htdocs\wordpress\wp-content\plugins\ocean-extra\includes\menu-icons\includes\picker.php:126
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): OE_Menu_Icons_Picker::_save(4, 314, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\nav-menu.php(589): do_action('wp_update_nav_m...', 4, 314, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\nav-menu.php(1105): wp_update_nav_menu_item(4, 314, Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): _wp_auto_add_pages_to_menu('publish', 'new', Object(WP_Post))
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordpress\wp in C:\xampp\htdocs\wordpress\wp-content\plugins\ocean-extra\includes\menu-icons\includes\picker.php on line 126
+
+2020-01-31T22:48:11+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_screen() in C:\xampp\htdocs\wordpress\wp-content\plugins\ocean-extra\includes\menu-icons\includes\picker.php:126
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): OE_Menu_Icons_Picker::_save(4, 361, Array)
+#1 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\wordpress\wp-includes\nav-menu.php(589): do_action('wp_update_nav_m...', 4, 361, Array)
+#4 C:\xampp\htdocs\wordpress\wp-includes\nav-menu.php(1105): wp_update_nav_menu_item(4, 361, Array)
+#5 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(288): _wp_auto_add_pages_to_menu('publish', 'auto-draft', Object(WP_Post))
+#6 C:\xampp\htdocs\wordpress\wp-includes\class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#7 C:\xampp\htdocs\wordpress\wp-includes\plugin.php(478): WP_Hook->do_action(Array)
+#8 C:\xampp\htdocs\wordp in C:\xampp\htdocs\wordpress\wp-content\plugins\ocean-extra\includes\menu-icons\includes\picker.php on line 126
+

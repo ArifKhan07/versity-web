@@ -1,0 +1,2 @@
+2020-02-01T15:02:31+00:00 CRITICAL Out of memory (allocated 14680064) (tried to allocate 36864 bytes) in C:\xampp\htdocs\wordpress\wp-content\plugins\essential-addons-for-elementor-lite\includes\Elements\Feature_List.php on line 710
+
