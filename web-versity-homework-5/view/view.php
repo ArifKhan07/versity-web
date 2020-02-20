@@ -35,7 +35,7 @@ $sid=$row['s_id'];
 $name=$row['name'];
 $email=$row['email'];
 $uname=$row['uname'];
-$phonenum=$row['phonenum'];
+$phonenum=$row['phone_num'];
 $passwrd=$row['password'];
 $delet=$row['delet'];
  

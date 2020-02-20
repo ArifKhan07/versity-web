@@ -9,7 +9,7 @@ while($row=mysqli_fetch_array($Result))
 $name=$row['name'];
 $email=$row['email'];
 $uname=$row['uname'];
-$phonenum=$row['phonenum'];
+$phonenum=$row['phone_num'];
 $pass=$row['password'];
 }?>
 
