@@ -1,0 +1,26 @@
+.menu{
+	width : 100%;
+	height : 40px;
+	border : 1px solid black;
+	display: flex;
+    align-items: center;
+    margin-bottom : 5px;
+}
+
+.menu span{
+    width:33.3%;
+    display: flex;
+    float:left;
+    justify-content : center;
+}
+.product-div{
+    width: 200px;
+    height: 280px;
+    border: 1px solid black;
+    padding: 7px;
+    margin: 5px;
+    text-align: center;
+    font-size: large;
+    text-transform: capitalize;
+}
+
